@@ -2,9 +2,14 @@ package testkit_test
 
 import (
 	"testing"
-	"github.com/luistm/banksaurus/elib/testkit"
+
+	"github.com/luistm/testkit"
 )
 
-func TestUnitIsNil(t *testing.T){
-	testkit.AssertIsNil(t,nil)
+func TestUnitEqual(t *testing.T) {
+	testkit.AssertEqual(t, 1, 1)
+}
+
+func TestUnitIsNil(t *testing.T) {
+	testkit.AssertIsNil(t, nil)
 }

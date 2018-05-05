@@ -1,6 +1,6 @@
-### Testkit
+### TestKit
 
-Testkit provides tools for testing Go code.
+TestKit provides tools for testing Go code.
 
 ```go
 import "github.com/luistm/testkit"
